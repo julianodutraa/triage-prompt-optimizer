@@ -1,0 +1,308 @@
+{
+  "ticket_seed": 20261011,
+  "split_seed": 7,
+  "validation": [
+    {
+      "ticket_id": "T012",
+      "text": "The fraud_features_dag DAG has failed for the third consecutive run, no downstream tables have been refreshed in over 18 hours.",
+      "true_category": "pipeline_failure",
+      "true_severity": "P1"
+    },
+    {
+      "ticket_id": "T045",
+      "text": "The reporting-api deployment to staging completed with no issues, promoting to production next cycle.",
+      "true_category": "deployment_regression",
+      "true_severity": "P4"
+    },
+    {
+      "ticket_id": "T010",
+      "text": "Routine capacity check shows sessions_db storage at 65 percent, trending up slowly with no action needed yet.",
+      "true_category": "db_capacity",
+      "true_severity": "P4"
+    },
+    {
+      "ticket_id": "T040",
+      "text": "After deploying ingest-gateway version 3.9, the error rate climbed to 22 percent and a rollback is in progress.",
+      "true_category": "deployment_regression",
+      "true_severity": "P2"
+    },
+    {
+      "ticket_id": "T050",
+      "text": "An unauthorized access attempt was detected against orders_db using credentials that match no known service account.",
+      "true_category": "security_alert",
+      "true_severity": "P1"
+    },
+    {
+      "ticket_id": "T053",
+      "text": "A certificate used by checkout-api expired unexpectedly, blocking authenticated requests in eu-west-1.",
+      "true_category": "security_alert",
+      "true_severity": "P2"
+    },
+    {
+      "ticket_id": "T030",
+      "text": "Latency between auth-service and its upstream dependency increased by 35 percent after a routing change in sa-east-1.",
+      "true_category": "network_connectivity",
+      "true_severity": "P3"
+    },
+    {
+      "ticket_id": "T016",
+      "text": "The fraud_features_dag DAG failed on its scheduled run tonight, the last successful run was 26 hours ago.",
+      "true_category": "pipeline_failure",
+      "true_severity": "P2"
+    },
+    {
+      "ticket_id": "T000",
+      "text": "The billing_db database on db-node-11 has exceeded 98 percent of allocated storage and write operations are now failing.",
+      "true_category": "db_capacity",
+      "true_severity": "P1"
+    },
+    {
+      "ticket_id": "T019",
+      "text": "A single task in the daily_sales_etl DAG retried twice before succeeding, adding about 40 minutes of delay to the run.",
+      "true_category": "pipeline_failure",
+      "true_severity": "P3"
+    },
+    {
+      "ticket_id": "T024",
+      "text": "All pods in the ingest-gateway namespace are unreachable after a networking change in eu-west-1, full outage in progress.",
+      "true_category": "network_connectivity",
+      "true_severity": "P1"
+    },
+    {
+      "ticket_id": "T011",
+      "text": "Routine capacity check shows billing_db storage at 65 percent, trending up slowly with no action needed yet.",
+      "true_category": "db_capacity",
+      "true_severity": "P4"
+    },
+    {
+      "ticket_id": "T008",
+      "text": "Storage utilization on billing_db reached 80 percent during last night's batch load, above the usual range.",
+      "true_category": "db_capacity",
+      "true_severity": "P3"
+    },
+    {
+      "ticket_id": "T029",
+      "text": "Intermittent connection timeouts between auth-service and billing_db are causing elevated error rates in eu-west-1.",
+      "true_category": "network_connectivity",
+      "true_severity": "P2"
+    },
+    {
+      "ticket_id": "T059",
+      "text": "Access review for checkout-api completed with no findings, next review scheduled in three months.",
+      "true_category": "security_alert",
+      "true_severity": "P4"
+    },
+    {
+      "ticket_id": "T051",
+      "text": "A certificate used by billing-worker expired unexpectedly, blocking authenticated requests in us-west-2.",
+      "true_category": "security_alert",
+      "true_severity": "P2"
+    },
+    {
+      "ticket_id": "T021",
+      "text": "The inventory_sync DAG completed successfully but logged a deprecation warning about an upcoming API change.",
+      "true_category": "pipeline_failure",
+      "true_severity": "P4"
+    },
+    {
+      "ticket_id": "T039",
+      "text": "After deploying auth-service version 3.9, the error rate climbed to 22 percent and a rollback is in progress.",
+      "true_category": "deployment_regression",
+      "true_severity": "P2"
+    },
+    {
+      "ticket_id": "T022",
+      "text": "The inventory_sync DAG completed successfully but logged a deprecation warning about an upcoming API change.",
+      "true_category": "pipeline_failure",
+      "true_severity": "P4"
+    },
+    {
+      "ticket_id": "T047",
+      "text": "The checkout-api deployment to staging completed with no issues, promoting to production next cycle.",
+      "true_category": "deployment_regression",
+      "true_severity": "P4"
+    }
+  ],
+  "test": [
+    {
+      "ticket_id": "T018",
+      "text": "A single task in the clickstream_agg DAG retried twice before succeeding, adding about 40 minutes of delay to the run.",
+      "true_category": "pipeline_failure",
+      "true_severity": "P3"
+    },
+    {
+      "ticket_id": "T031",
+      "text": "Latency between checkout-api and its upstream dependency increased by 35 percent after a routing change in us-east-1.",
+      "true_category": "network_connectivity",
+      "true_severity": "P3"
+    },
+    {
+      "ticket_id": "T028",
+      "text": "Intermittent connection timeouts between auth-service and sessions_db are causing elevated error rates in us-west-2.",
+      "true_category": "network_connectivity",
+      "true_severity": "P2"
+    },
+    {
+      "ticket_id": "T042",
+      "text": "The reporting-api deployment introduced a minor regression, increasing p99 latency by 15 percent.",
+      "true_category": "deployment_regression",
+      "true_severity": "P3"
+    },
+    {
+      "ticket_id": "T046",
+      "text": "The reporting-api deployment to staging completed with no issues, promoting to production next cycle.",
+      "true_category": "deployment_regression",
+      "true_severity": "P4"
+    },
+    {
+      "ticket_id": "T058",
+      "text": "Access review for reporting-api completed with no findings, next review scheduled in three months.",
+      "true_category": "security_alert",
+      "true_severity": "P4"
+    },
+    {
+      "ticket_id": "T056",
+      "text": "A routine security scan flagged an outdated dependency in checkout-api with a medium severity CVE.",
+      "true_category": "security_alert",
+      "true_severity": "P3"
+    },
+    {
+      "ticket_id": "T049",
+      "text": "An unauthorized access attempt was detected against sessions_db using credentials that match no known service account.",
+      "true_category": "security_alert",
+      "true_severity": "P1"
+    },
+    {
+      "ticket_id": "T017",
+      "text": "The inventory_sync DAG failed on its scheduled run tonight, the last successful run was 26 hours ago.",
+      "true_category": "pipeline_failure",
+      "true_severity": "P2"
+    },
+    {
+      "ticket_id": "T001",
+      "text": "The orders_db database on db-node-03 has exceeded 98 percent of allocated storage and write operations are now failing.",
+      "true_category": "db_capacity",
+      "true_severity": "P1"
+    },
+    {
+      "ticket_id": "T038",
+      "text": "The deployment of reporting-api version 4.2 is causing 100 percent of requests to return errors in production.",
+      "true_category": "deployment_regression",
+      "true_severity": "P1"
+    },
+    {
+      "ticket_id": "T033",
+      "text": "A brief, one minute network blip was observed in us-east-1 with no customer impact reported.",
+      "true_category": "network_connectivity",
+      "true_severity": "P4"
+    },
+    {
+      "ticket_id": "T057",
+      "text": "Access review for checkout-api completed with no findings, next review scheduled in three months.",
+      "true_category": "security_alert",
+      "true_severity": "P4"
+    },
+    {
+      "ticket_id": "T036",
+      "text": "The deployment of ingest-gateway version 4.2 is causing 100 percent of requests to return errors in production.",
+      "true_category": "deployment_regression",
+      "true_severity": "P1"
+    },
+    {
+      "ticket_id": "T014",
+      "text": "The inventory_sync DAG has failed for the third consecutive run, no downstream tables have been refreshed in over 18 hours.",
+      "true_category": "pipeline_failure",
+      "true_severity": "P1"
+    },
+    {
+      "ticket_id": "T007",
+      "text": "Storage utilization on orders_db reached 80 percent during last night's batch load, above the usual range.",
+      "true_category": "db_capacity",
+      "true_severity": "P3"
+    },
+    {
+      "ticket_id": "T048",
+      "text": "An unauthorized access attempt was detected against sessions_db using credentials that match no known service account.",
+      "true_category": "security_alert",
+      "true_severity": "P1"
+    },
+    {
+      "ticket_id": "T043",
+      "text": "The ingest-gateway deployment introduced a minor regression, increasing p99 latency by 15 percent.",
+      "true_category": "deployment_regression",
+      "true_severity": "P3"
+    },
+    {
+      "ticket_id": "T035",
+      "text": "A brief, one minute network blip was observed in us-west-2 with no customer impact reported.",
+      "true_category": "network_connectivity",
+      "true_severity": "P4"
+    },
+    {
+      "ticket_id": "T044",
+      "text": "The ingest-gateway deployment introduced a minor regression, increasing p99 latency by 15 percent.",
+      "true_category": "deployment_regression",
+      "true_severity": "P3"
+    },
+    {
+      "ticket_id": "T015",
+      "text": "The fraud_features_dag DAG failed on its scheduled run tonight, the last successful run was 26 hours ago.",
+      "true_category": "pipeline_failure",
+      "true_severity": "P2"
+    },
+    {
+      "ticket_id": "T054",
+      "text": "A routine security scan flagged an outdated dependency in checkout-api with a medium severity CVE.",
+      "true_category": "security_alert",
+      "true_severity": "P3"
+    },
+    {
+      "ticket_id": "T026",
+      "text": "All pods in the billing-worker namespace are unreachable after a networking change in us-west-2, full outage in progress.",
+      "true_category": "network_connectivity",
+      "true_severity": "P1"
+    },
+    {
+      "ticket_id": "T027",
+      "text": "Intermittent connection timeouts between auth-service and sessions_db are causing elevated error rates in sa-east-1.",
+      "true_category": "network_connectivity",
+      "true_severity": "P2"
+    },
+    {
+      "ticket_id": "T005",
+      "text": "Tablespace usage on billing_db crossed 90 percent and is projected to fill within 48 hours at the current growth rate.",
+      "true_category": "db_capacity",
+      "true_severity": "P2"
+    },
+    {
+      "ticket_id": "T002",
+      "text": "The billing_db database on db-node-14 has exceeded 98 percent of allocated storage and write operations are now failing.",
+      "true_category": "db_capacity",
+      "true_severity": "P1"
+    },
+    {
+      "ticket_id": "T013",
+      "text": "The fraud_features_dag DAG has failed for the third consecutive run, no downstream tables have been refreshed in over 18 hours.",
+      "true_category": "pipeline_failure",
+      "true_severity": "P1"
+    },
+    {
+      "ticket_id": "T032",
+      "text": "Latency between reporting-api and its upstream dependency increased by 35 percent after a routing change in us-east-1.",
+      "true_category": "network_connectivity",
+      "true_severity": "P3"
+    },
+    {
+      "ticket_id": "T055",
+      "text": "A routine security scan flagged an outdated dependency in ingest-gateway with a medium severity CVE.",
+      "true_category": "security_alert",
+      "true_severity": "P3"
+    },
+    {
+      "ticket_id": "T037",
+      "text": "The deployment of reporting-api version 4.2 is causing 100 percent of requests to return errors in production.",
+      "true_category": "deployment_regression",
+      "true_severity": "P1"
+    }
+  ]
+}
